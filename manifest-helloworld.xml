@@ -19,7 +19,7 @@
 
 
   <AppDomains>
-    <AppDomain>https://xlwings.github.io/officejs-helloworld/</AppDomain>
+    <AppDomain>https://greatbleu.github.io/ExcelAddIn/</AppDomain>
   </AppDomains>
 
 
@@ -29,7 +29,7 @@
 
 
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://xlwings.github.io/officejs-helloworld/taskpane.html" />
+    <SourceLocation DefaultValue="https://greatbleu.github.io/ExcelAddIn/taskpane.html" />
   </DefaultSettings>
 
 
@@ -38,9 +38,6 @@
   <VersionOverrides xmlns="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="VersionOverridesV1_0">
     <Hosts>
       <Host xsi:type="Workbook">
-
-
-
 
         <DesktopFormFactor>
 
@@ -75,12 +72,6 @@
                     <FunctionName>clickButton</FunctionName>
                 </Action>
 
-                 
-                  <!-- <Action xsi:type="ShowTaskpane">
-                    <TaskpaneId>ButtonId1</TaskpaneId>
-                    
-                    <SourceLocation resid="Taskpane.Url" />
-                  </Action> -->
                 </Control>
 
               </Group>
@@ -109,7 +100,7 @@
 
       <bt:Urls>
         <bt:Url id="Commands.Url" DefaultValue="https://greatbleu.github.io/ExcelAddIn/ribbonFunctions.html" />
-        <bt:Url id="Taskpane.Url" DefaultValue="https://xlwings.github.io/officejs-helloworld/taskpane.html" />
+        <bt:Url id="Taskpane.Url" DefaultValue="https://greatbleu.github.io/ExcelAddIn/taskpane.html" />
       </bt:Urls>
 
       <bt:ShortStrings>
